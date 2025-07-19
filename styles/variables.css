@@ -1,1 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --heart-contour-color: black;
+    --heart-main-body-color: transparent;
+    --heart-core-color: transparent;
+    --heart-sparks-color: transparent;
+}

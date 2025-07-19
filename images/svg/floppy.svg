@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" fill="currentColor" viewBox="0 0 29 28">
+  <symbol id="floppy" fill="currentColor" viewBox="0 0 29 28">
+    <path fill="currentColor" d="M.5 0h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5z"/>
+    <path fill="currentColor" d="M.5 6.461h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5zm0 2.154h2.154v2.154H.5z"/>
+    <path fill="currentColor" d="M.5 23.692h2.154v2.154H.5zm0 2.154h2.154V28H.5zM24.193 0v2.154h-2.154V0z"/>
+    <path fill="currentColor" d="M22.04-.001v2.154h-2.154V-.001zM19.884 0v2.154H17.73V0zM17.73 0v2.154h-2.154V0z"/>
+    <path fill="currentColor" d="M15.577 0v2.154h-2.154V0zm-2.154 0v2.154h-2.154V0z"/>
+    <path fill="currentColor" d="M11.27 0v2.154H9.116V0zM9.116 0v2.154H6.962V0zM6.96.001v2.154H4.806V.001z"/>
+    <path fill="currentColor" d="M4.807 0v2.154H2.653V0zm21.539 2.154v2.154h-2.154V2.154zM6.96 4.309v2.154H4.806V4.309zm0-2.154v2.154H4.806V2.155z"/>
+    <path fill="currentColor" d="M6.96 6.462v2.154H4.806V6.462zm15.08-2.155v2.154h-2.154V4.307zm0-2.154v2.154h-2.154V2.153z"/>
+    <path fill="currentColor" d="M22.04 6.46v2.154h-2.154V6.46zm-4.31-2.152v2.154h-2.154V4.308zm0-2.154v2.154h-2.154V2.154z"/>
+    <path fill="currentColor" d="M17.73 6.461v2.154h-2.154V6.461zm4.31 2.153v2.154h-2.154V8.614zm-2.156.001v2.154H17.73V8.615zm-2.154 0v2.154h-2.154V8.615z"/>
+    <path fill="currentColor" d="M15.577 8.615v2.154h-2.154V8.615zm-2.154 0v2.154h-2.154V8.615z"/>
+    <path fill="currentColor" d="M11.27 8.615v2.154H9.116V8.615zm-2.154 0v2.154H6.962V8.615zm-2.156.001v2.154H4.806V8.616zm17.233 6.461v2.154h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M22.04 15.076v2.154h-2.154v-2.154zm-2.156.001v2.154H17.73v-2.154zm-2.154 0v2.154h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M15.577 15.077v2.154h-2.154v-2.154zm-2.154 0v2.154h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M11.27 15.077v2.154H9.116v-2.154zm-2.154 0v2.154H6.962v-2.154zm-2.156.001v2.154H4.806v-2.154zm17.233 2.153v2.154h-2.154v-2.154zm-17.233.001v2.154H4.806v-2.154zm17.233 2.153v2.154h-2.154v-2.154zm-17.233.001v2.154H4.806v-2.154zm17.233 2.153v2.154h-2.154v-2.154zM6.96 21.54v2.154H4.806V21.54z"/>
+    <path fill="currentColor" d="M6.96 23.693v2.154H4.806v-2.154zm17.233-.001v2.154h-2.154v-2.154zm2.153 2.154V28h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M24.193 25.846V28h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M22.04 25.845v2.154h-2.154v-2.154zm-2.156.001V28H17.73v-2.154zm-2.154 0V28h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M15.577 25.846V28h-2.154v-2.154zm-2.154 0V28h-2.154v-2.154z"/>
+    <path fill="currentColor" d="M11.27 25.846V28H9.116v-2.154zm-2.154 0V28H6.962v-2.154zm-2.156.001v2.154H4.806v-2.154z"/>
+    <path fill="currentColor" d="M4.807 25.846V28H2.653v-2.154zM28.5 28h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5z"/>
+    <path fill="currentColor" d="M28.5 21.539h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5zm0-2.154h-2.154v-2.154H28.5zm0-2.154h-2.154V8.615H28.5zm0-2.154h-2.154V6.461H28.5zm0-2.154h-2.154V4.307H28.5z"/>
+  </symbol>
+</svg>
