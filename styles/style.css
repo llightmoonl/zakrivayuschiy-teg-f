@@ -9,6 +9,7 @@
         linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
     background-size: cover;
     background-attachment: fixed;
+    font-variation-settings: 'wght' var(--font-weight);
 }
 
 @media screen and (width >= 768px) {
@@ -35,7 +36,7 @@
 }
 
 :is(.header__title, .header__subtitle) {
-    font-family: Press-Start-2P, system-ui;
+    font-family: Press-Start-2P, fantasy;
     text-transform: uppercase;
     text-align: center;
 }
@@ -54,31 +55,32 @@
     background-color: white;
 }
 
-.posts {
+.cards {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
 }
 
-.posts .post__header {
+.cards .card__header {
     padding: 6px 10px;
 }
 
-.posts .post__title {
+.cards .card__title {
     font-size: 18px;
     line-height: 1;
-    font-weight: 700;
+    font-variation-settings: 'wght' var(--font-weight);
+    --font-weight: 700;
 }
 
-.posts .post__picture-wrapper {
+.cards .card__picture-wrapper {
     position: relative;
 }
 
-.posts .post__picture-label {
+.cards .card__picture-label {
     position: absolute;
     right: 25px;
     top: 25px;
-    font-family: Press-Start-2P, system-ui;
+    font-family: Press-Start-2P, fantasy;
     font-size: 14px;
     mix-blend-mode: hard-light;
     opacity: 50%;
@@ -87,46 +89,47 @@
 }
 
 @supports (-webkit-text-stroke: thin #ffffff) {
-    .posts .post__picture-label {
+    .cards .card__picture-label {
         -webkit-text-stroke: thin #ffffff;
         text-shadow: none;
     }
 }
 
 @supports (text-stroke: thin #ffffff) {
-    .posts .post__picture-label {
+    .cards .card__picture-label {
         text-stroke: thin #ffffff;
         text-shadow: none;
     }
 }
 
-.posts .post__picture {
+.cards .card__picture {
     aspect-ratio: 1 / 1;
     block-size: 100%;
     inline-size: 100%;
     display: block;
 }
 
-.posts .post__image {
+.cards .card__image {
     block-size: 100%;
     inline-size: 100%;
 }
 
-.posts .post__information {
+.cards .card__information {
     padding: 25px;
 }
 
-.posts .post__text {
+.cards .card__text {
     font-size: 18px;
-    font-weight: 400;
+    font-variation-settings: 'wght' var(--font-weight);
+    --font-weight: 400;
     line-height: 21px;
 }
 
-.posts .post__text:not(:first-child) {
+.cards .card__text:not(:first-child) {
     margin-top: 27px;
 }
 
-.posts .post__controls {
+.cards .card__controls {
     margin-top: 22px;
     display: flex;
     align-items: center;
@@ -135,7 +138,7 @@
 }
 
 .button {
-    font-family: Press-Start-2P, system-ui;
+    font-family: Press-Start-2P, fantasy;
     font-size: 14px;
     border: 2px solid black;
     background-color: white;
@@ -143,17 +146,28 @@
     position: relative;
     z-index: 1;
     appearance: none;
+    transition: box-shadow 0.3s ease;
 }
 
-.post__icon-button {
+.card__icon-button {
     display: flex;
     border: none;
     padding: initial;
     background-color: transparent;
     cursor: pointer;
+    outline: 2px solid transparent;
+    transition: outline-color 0.3s ease;
 }
 
-.post__like-button {
+button.card__icon-button:focus {
+    outline: 2px solid transparent;
+}
+
+button.card__icon-button:focus-visible {
+    outline-color: black;
+}
+
+.card__like-button {
     padding: 10px 17px;
     max-inline-size: 130px;
     inline-size: 100%;
@@ -232,6 +246,20 @@
 .button:focus-visible {
     outline: none;
     box-shadow: 2px 2px 0 black;
+}
+
+.floppy-icon,
+.button__text {
+    mix-blend-mode: difference;
+    color: #fff;
+    stroke: #fff;
+    fill: #fff;
+}
+
+.like-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .like-icon .contour {
@@ -318,35 +346,35 @@
     }
 }
 
-.post__item_brigtness .post__image {
+.card__item_brigtness .card__image {
     filter: brightness(1);
 }
 
-.post__item_invert .post__image {
+.card__item_invert .card__image {
     filter: invert(0.75);
 }
 
-.post__item_grayscale .post__image {
+.card__item_grayscale .card__image {
     filter: grayscale(0.7);
 }
 
-.post__item_sepia .post__image {
+.card__item_sepia .card__image {
     filter: sepia(1);
 }
 
-.post__item_blur .post__image {
+.card__item_blur .card__image {
     filter: blur(10px);
 }
 
-.post__item_hue-rotate .post__image {
+.card__item_hue-rotate .card__image {
     filter: hue-rotate(35deg);
 }
 
-.post__item_saturate .post__image {
+.card__item_saturate .card__image {
     filter: saturate(3);
 }
 
-.post__item_multiple .post__image {
+.card__item_multiple .card__image {
     filter: hue-rotate(100deg) sepia(0.1) blur(1px) brightness(1.2) contrast(0.54);
 }
 
@@ -410,7 +438,7 @@
 
 .modal__title {
     font-size: 14px;
-    font-family: Press-Start-2P, system-ui;
+    font-family: Press-Start-2P, fantasy;
     line-height: 1.5;
     text-transform: uppercase;
 }
